@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body { height: 0;
+   padding-top: 15.16%;
+    position: relative;
+header {
+
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+}
+}
+
+.logo img{
+  width: 10vw;
+	height: auto;  
+}
+.logo{
+  position: relative;
+  margin-top: 5%;
+  margin-left: 44.5%;
+}
+
+
+
+ul{
+  float: left;
+  list-style-type: none;
+  //font-family:"Montserrat" mon;
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 0.5%;
+  width: 100vw;
+  font-size:0.5vw;
+ line-height:8vh;
+ 
+}
+ul li{
+  display: inline-block;
+  
+  border-top: 2px solid rgba(116,116,116,0.15);
+  
+  
+}
+
+ul li a{
+  text-decoration: none;
+  
+  color:#2B2B2B;
+  padding: 0.1vh 8vw;
+  //border:0.3vw solid rgba(116,116,116,0.15);
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+}
+ul li.active a{
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+.tarot{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(tarot.jpg);
+  //background-image:url(night.jpg);
+  position: absolute;
+ margin-top: 5%;
+ margin-left: 0;
+ background-size: cover;
+  background-position: 70% 44%;
+  
+ width: 49vw;
+ height: 65vh;
+ //backdrop-filter: blur(5px);
+ 
+}
+.astrology{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(astrology.jpg);
+  //background-image:url(night.jpg);
+  position: absolute;
+ margin-top: 5%;
+ margin-left: 51%;
+ background-size: cover;
+  background-position: 70% 44%;
+  
+ width: 49vw;
+ height: 65vh;
+ //backdrop-filter: blur(5px);
+ 
+}
+.title img{
+
+width: 15vw;
+	height: auto;  
+
+}
+.title{
+  
+  position: absolute;
+  //filter: blur(0.4px);
+  margin-top: 10%;
+  margin-left: 42%;
+  //transform: translate(-50%, -50%);
+
+}
+.intro{
+  color:rgb(207, 206, 204);
+  position: absolute;
+  font-size:1vw;
+  width:50vw; 
+  height:auto; 
+  line-height:3vh;
+  //filter: blur(0.4px);
+  margin-top: 16%;
+  margin-left: 33.2%;
+ // transform: translate(-50%, -50%);
+
+}
+.button{
+  position: absolute;
+  font-size:1vw;
+  width:50vw; 
+  height:auto; 
+  line-height:2vh;
+  
+  transition: 0.6s ease;
+
+}
+.button a:hover{
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  
+  
+}
+.btnBT{
+  padding: 1.5vh 1vw;
+  position: absolute;
+ // background-color: rgb(44, 36, 41);
+  color: #fff;
+  text-decoration: none;
+  border:0.2vw solid #fff;
+  margin-top: 30%;
+  margin-left: 40%;
+}
+.btnST{
+  padding: 1.5vh 1vw;
+  position: absolute;
+ // background-color: rgb(44, 36, 41);
+  color: #fff;
+  text-decoration: none;
+  border:0.2vw solid #fff;
+  margin-top: 40%;
+  margin-left: 40%;
+}
+.btnBA{
+  padding: 1.5vh 1vw;
+  position: absolute;
+ // background-color: rgb(44, 36, 41);
+  color: #fff;
+  text-decoration: none;
+  border:0.2vw solid #fff;
+  margin-top: 30%;
+  margin-left: 130%;
+}
+.btnSA{
+  padding: 1.5vh 1vw;
+  position: absolute;
+ // background-color: rgb(44, 36, 41);
+  color: #fff;
+  text-decoration: none;
+  border:0.2vw solid #fff;
+  margin-top: 40%;
+  margin-left: 130%;
+}
+/*.tarot{
+  
+  position: relative;
+  //filter: blur(0.7px);
+  top: 37%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+
+} */
+
